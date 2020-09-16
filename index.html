@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<head>
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://kit.fontawesome.com/37090960f7.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="icon" href="images/siteLogo.svg">
+<meta charset="utf-8">
+<title>Prodavnica telefona</title>
+</head>
+<body>
+<!-- Start container -->
+<div class="container">
+<!-- Start Navbar -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="navbar-brand" href="#"><i class="fas fa-mobile-alt fa-2x"></i> &nbsp; <img src="images/logoTrue.png" style="width: 300px;"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="mx-auto order-0">
+        <a class="navbar-brand mx-auto" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto text-white">
+            <li class="nav-item">
+			<a class="nav-link" href="#"><i class="fab fa-facebook-square"> Facebook</i></a>
+		</li>
+           <li class="nav-item">
+			<a class="nav-link" href="#"><i class="fab fa-instagram"> Instagram</i></a>
+		</li>
+       	<li class="nav-item">
+			<a class="nav-link" href="#"><i class="fab fa-twitter-square"> Twitter</i></a>
+		</li>
+       <li class="nav-item">
+		   <a class="nav-link" href="#"><i class="fab fa-google"> Google maps</i></a>
+		</li>
+        </ul>
+    </div>
+</nav>
+<!-- <nav class="navbar navbar-expand-md navbar-dark bg-"></nav>-->
+<!-- End Navbar -->
+<!-- Start Carousel slide -->
+<div id="demo" class="carousel slide" data-ride="carousel">
+	
+ <!-- Indicators -->
+	<ul class="carousel-indicators">
+   	 <li data-target="#demo" data-slide-to="0" class="active"></li>
+   	 <li data-target="#demo" data-slide-to="1"></li>
+   	 <li data-target="#demo" data-slide-to="2"></li>
+	</ul>
+	
+ <!-- The slideshow -->
+  <div class="carousel-inner">
+   <div class="carousel-item  active">
+      <img src="images/xiaomiW.jpg" alt="Xiaomi" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="images/iphone.jpg" alt="Iphone" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="images/samsung.jpg" alt="Samsung" width="1100" height="500">
+    </div>
+    
+  </div>
+<!-- Controls -->
+<a class="carousel-control-prev" href="#demo" data-slide="prev">
+	<span class="carousel-control-prev-icon"></span>
+</a>
+
+<a class="carousel-control-next" href="#demo" data-slide="next">
+	<span class="carousel-control-next-icon"></span>
+</a>
+<!-- end Carousel -->
+	</div>
+<!-- phone choice -->
+
+<!-- Dropdown -->
+<br>
+<button type="button" class="filterPress">Filter za pretragu</button>
+<button type="reset" class="filterBrisanje">Ponisti filtere</button>
+<br>
+<div class="dropdown"><br>
+  <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" width="300px">
+    Filter po proizvodjacu
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item applePress" href="#">Apple</a>
+    <a class="dropdown-item xiaomiPress" href="#">Xiaomi</a>
+    <a class="dropdown-item samsungPress" href="#">Samsung</a>
+    <a class="dropdown-item huaweiPress" href="#">Huawei</a>
+  </div>
+</div>
+
+<br>
+
+<!-- end dropdown -->
+<div class="row">
+   
+    <div class="col xiaomiPhone"><div class="card " style="width:100%">
+	<img class="card-img-top" src="https://cdn.movertix.com/media/catalog/product/cache/image/500x404/x/i/xiaomi-redmi-note-8-pro-dual-sim-en-verde-bosque-de-128gb-y-6gb-ram_1.jpg" style="width:100%">
+	<div class="card-body">
+		<h4 class="card-text">24.360 dinara</h4>
+		<p class="card-text">Xiaomi redmi note 8 Pro</p>
+		<a href="#" class="btn btn-primary stretched-link">Procitaj jos</a>
+	</div>
+</div>
+   </div>
+      <div class="col samsungPhone">  <div class="col"><div class="card " style="width:100%">
+	<img class="card-img-top" src="https://cdn.movertix.com/media/catalog/product/cache/image/500x404/s/a/samsung-galaxy-s6-edge-plus-g928-32gb-negro-libre-G928F32GBB.jpg" style="width:100%">
+	<div class="card-body">
+		<h4 class="card-text">27.220 dinara</h4>
+		<p class="card-text">Samsung Galaxy s6 edge+</p>
+		<a href="#" class="btn btn-primary stretched-link">Procitaj jos</a>
+	</div>
+</div>
+   </div></div>
+     <div class="col applePhone">  <div class="col"><div class="card " style="width:100%">
+	<img class="card-img-top" src="https://cdn.movertix.com/media/catalog/product/cache/image/500x404/a/p/apple-iphone-7-256-gb-oro-rosa-libre-0190198071286.jpg" style="width:100%">
+	<div class="card-body">
+		<h4 class="card-text">52.360 dinara</h4>
+		<p class="card-text">Iphone 7 rose gold</p>
+		<a href="#" class="btn btn-primary stretched-link">Procitaj jos</a>
+	</div>
+</div>
+   </div></div>
+     <div class="col applePhone">  <div class="col"><div class="card " style="width:100%">
+	<img class="card-img-top" src="https://fireantstudio.com/wp-content/uploads/2019/09/Events_03-e1569864608854-500x404.gif" style="width:100%">
+	<div class="card-body">
+		<h4 class="card-text">72.330 dinara</h4>
+		<p class="card-text">Iphone 9s</p>
+		<a href="#" class="btn btn-primary stretched-link">Procitaj jos</a>
+	</div>
+</div>
+   </div></div>
+    <div class="col samsungPhone">  <div class="col"><div class="card " style="width:100%">
+	<img class="card-img-top" src="https://cdn.movertix.com/media/catalog/product/cache/image/500x404/s/a/samsung-galaxy-s10-dual-sim-en-blanco-de-512gb-y-8gb-ram-sm-g973f-ds.jpg" style="width:100%">
+	<div class="card-body">
+		<h4 class="card-text">44.344 dinara</h4>
+		<p class="card-text">Samsung Galaxy S10</p>
+		<a href="#" class="btn btn-primary stretched-link">Procitaj jos</a>
+	</div>
+</div>
+   </div></div>
+    
+<!--
+<div class="w-100"></div>
+   
+    <div class="col"><br></div>
+    
+    <div class="col"><br></div>
+    
+  </div>
+-->
+<!--<div class="row">-->
+   
+    <div class="col xiaomiPhone"><div class="card " style="width:100%">
+	<img class="card-img-top" src="https://cdn.movertix.com/media/catalog/product/cache/image/500x404/x/i/xiaomi-redmi-note-8-pro-dual-sim-en-verde-bosque-de-128gb-y-6gb-ram_1.jpg" style="width:100%">
+	<div class="card-body">
+		<h4 class="card-text">24.360 dinara</h4>
+		<p class="card-text">Xiaomi redmi note 8 Pro</p>
+		<a href="#" class="btn btn-primary stretched-link">Procitaj jos</a>
+	</div>
+</div>
+   </div>
+      <div class="col xiaomiPhone">  <div class="col"><div class="card " style="width:100%">
+	<img class="card-img-top" src="https://cdn.movertix.com/media/catalog/product/cache/image/500x404/x/i/xiaomi-redmi-note-6-pro-4gb64gb-negro-dual-sim-6941059615101.jpg" style="width:100%">
+	<div class="card-body">
+		<h4 class="card-text">14.300 dinara</h4>
+		<p class="card-text">Xiaomi redmi note 6 Pro</p>
+		<a href="#" class="btn btn-primary stretched-link">Procitaj jos</a>
+	</div>
+</div>
+   </div></div>
+     <div class="col huaweiPhone">  <div class="col"><div class="card " style="width:100%">
+	<img class="card-img-top" src="https://cdn.movertix.com/media/catalog/product/cache/image/500x404/h/u/huawei-y7-2019-dual-sim-en-negro-de-32gb-y-3gb-ram-dub-lx1.jpg" style="width:100%">
+	<div class="card-body">
+		<h4 class="card-text">31.310 dinara</h4>
+		<p class="card-text">Huawei Y7</p>
+		<a href="#" class="btn btn-primary stretched-link">Procitaj jos</a>
+	</div>
+</div>
+   </div></div>
+     <div class="col xiaomiPhone">  <div class="col"><div class="card " style="width:100%">
+	<img class="card-img-top" src="https://www.digideli.ee/media/catalog/product/cache/2/image/500x404/06229ef7469ce5137ae049373f903703/A/L/ALS_3880811_a6735963_e613_460a_b424_c5c7f3ca2209.jpg" style="width:100%">
+	<div class="card-body">
+		<h4 class="card-text">44.360 dinara</h4>
+		<p class="card-text">Xiaomi Poco F2 Pro</p>
+		<a href="#" class="btn btn-primary stretched-link">Procitaj jos</a>
+	</div>
+</div>
+   </div></div>
+    <div class="col xiaomiPhone">  <div class="col"><div class="card " style="width:100%">
+	<img class="card-img-top" src="https://www.digideli.ee/media/catalog/product/cache/2/image/500x404/06229ef7469ce5137ae049373f903703/A/L/ALS_3873619_34e1374a_fb1c_41ad_88a4_fa522b23376c.jpg" style="width:100%">
+	<div class="card-body">
+		<h4 class="card-text">26.120 dinara</h4>
+		<p class="card-text">Xiaomi redmi note 9</p>
+		<a href="#" class="btn btn-primary stretched-link">Procitaj jos</a>
+	</div>
+</div>
+   </div></div>
+    
+<div class="w-100"></div>
+   
+    <div class="col"></div>
+    
+    <div class="col"></div>
+    
+  </div>
+  
+
+
+<!-- start footer -->
+
+<footer class="page-footer font-small blue pt-4">
+
+  
+  <div class="footer-copyright text-center py-3">© Copyright:
+    <a href="https://github.com/NikolaMilutinovic"> Nikola Milutinovic</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+
+<!-- end footer -->
+<!-- END CONTAINER -->
+</div>
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

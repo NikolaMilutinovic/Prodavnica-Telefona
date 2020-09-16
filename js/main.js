@@ -1,0 +1,37 @@
+$(document).ready(function(){
+	$(".dropdown").hide();
+	$(".filterPress").click(function(){
+		$(".dropdown").show();
+		$(this).click(function(){
+			$(".dropdown").hide();
+		});
+		
+	$(".applePress").click(function(){
+		$(".samsungPhone").hide();
+		$(".xiaomiPhone").hide();
+		$(".huaweiPhone").hide();
+	});
+	$(".xiaomiPress").click(function(){
+		$(".samsungPhone").hide();
+		$(".applePhone").hide();
+		$(".huaweiPhone").hide();
+	});
+	$(".samsungPress").click(function(){
+		$(".applePhone").hide();
+		$(".xiaomiPhone").hide();
+		$(".huaweiPhone").hide();
+	});
+	$(".huaweiPress").click(function(){
+		$(".samsungPhone").hide();
+		$(".xiaomiPhone").hide();
+		$(".applePhone").hide();
+	});
+	$(".filterBrisanje").click(function(){
+		$(".samsungPhone").show();
+		$(".xiaomiPhone").show();
+		$(".applePhone").show();
+		$(".samsungPhone").show();
+	});
+	
+});
+});
