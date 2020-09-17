@@ -14,3 +14,14 @@
 ul.nav, a:hover {
 	color: rgba(255,145,75,1.00) !important;
 }
+.searchBug {
+	width: 400px;
+	height:250px;
+	margin-bottom:150px;
+}
+.butTwo {
+	width: 400px;
+}
+.lastDiv {
+	height: 200px;
+}
