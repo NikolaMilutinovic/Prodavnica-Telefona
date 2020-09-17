@@ -15,6 +15,7 @@ $(document).ready(function(){
 		$(".samsungPhone").hide();
 		$(".applePhone").hide();
 		$(".huaweiPhone").hide();
+		$(".xiaomiPhone").css("height","200px");
 	});
 	$(".samsungPress").click(function(){
 		$(".applePhone").hide();
@@ -30,7 +31,7 @@ $(document).ready(function(){
 		$(".samsungPhone").show();
 		$(".xiaomiPhone").show();
 		$(".applePhone").show();
-		$(".samsungPhone").show();
+		$(".huaweiPhone").show();
 	});
 	
 });
